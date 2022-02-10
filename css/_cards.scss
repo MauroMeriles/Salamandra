@@ -1,7 +1,6 @@
 .card {
     margin-bottom: 70px;
     display: flex;
-    flex-direction: row;
     @include responsive(tablet){
         flex-direction: column;
         
@@ -12,7 +11,7 @@
         align-items: self-start;
     }
     img {
-        width: 300px;
+        width: 100%;
         object-fit: cover;
         @include responsive(tablet){
             width: 100%;

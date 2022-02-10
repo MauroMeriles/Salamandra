@@ -5,10 +5,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 @media (max-width: 768px) {
@@ -34,7 +30,7 @@
 }
 
 .card img {
-  width: 300px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -277,6 +273,17 @@ h2 {
   font-size: 3rem;
 }
 
+.tabla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
 table tbody tr td {
   padding: 20px;
 }
@@ -300,7 +307,80 @@ table tbody tr th {
   color: indigo;
 }
 
-/* BLOQUE 8 */
+a {
+  text-decoration: none;
+}
+
+section p {
+  color: indigo;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.contactoHeader {
+  padding: 30px;
+  text-align: center;
+  background-image: url("https://365psd.com/images/istock/previews/9068/90688657-food-seamless-pattern-elements-and-background.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+.contactoHeader h1 {
+  font-size: 3rem;
+  background-color: #ff875a;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.formulario {
+  padding: 20px;
+}
+
+.formulario fieldset {
+  padding: 20px;
+}
+
+.formulario .boton--enviar {
+  background-color: blue;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.boton {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.secciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mapa {
+  width: 500px;
+  margin: 40px 20px 40px 40px;
+  background: white;
+}
+
+.parrafo {
+  width: 500px;
+  margin: 40px 40px 40px 20px;
+  background-color: #f1e0d4;
+}
+
+.imagenMapa {
+  width: 100%;
+}
+
 .formulario {
   padding: 20px;
 }
@@ -320,5 +400,62 @@ table tbody tr th {
   border-radius: 3px;
   color: white;
   font-weight: bold;
+}
+
+.estilosTextos, .subTitulo, .titulo {
+  margin-top: 10px;
+  padding: 30px;
+  text-align: center;
+  background-image: url(https://365psd.com/images/istock/previews/9068/90688657-food-seamless-pattern-elements-and-background.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+.animacion, .subTitulo h2:hover, .subTitulo h3:hover, .titulo h1:hover {
+  font-size: 4rem;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.subTitulo h2, .subTitulo h3 {
+  font-size: 3rem;
+  background-color: #ff875a;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.titulo p {
+  color: indigo;
+}
+
+.titulo h1 {
+  font-size: 3rem;
+  background-color: #ff875a;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.container {
+  margin: 20px;
+  margin-top: 60px;
+}
+
+.carousel-caption p {
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.cartas .card {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cartas .card img {
+  width: 300px;
 }
 /*# sourceMappingURL=main.css.map */
