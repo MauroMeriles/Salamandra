@@ -1,0 +1,19 @@
+header {
+    border: solid black;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    nav {
+      padding: 10px;
+      text-decoration: none;
+      ul li a {
+        color: orangered;
+      }
+    }
+    img {
+      width: 150px;
+      text-align: center;
+    }
+  }
+

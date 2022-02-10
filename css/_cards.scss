@@ -1,0 +1,56 @@
+.card {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    @include responsive(tablet){
+        flex-direction: column;
+        
+    }
+    &.content {
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+    img {
+        width: 300px;
+        object-fit: cover;
+        @include responsive(tablet){
+            width: 100%;
+            
+        }
+    }
+       
+    p {
+        font-size: 2rem;
+    }
+    
+    h5 {
+        color: indigo;
+        font-size: 4rem;
+        margin-bottom: 20px;
+        margin: 10px;
+    }
+    
+    ul {
+        padding: 20px;
+        font-size: 2rem;
+        list-style: circle;
+        color: indigo;
+    }
+}
+
+$card: (  
+    italian: #e8e9e9,
+    mexican: #f3f3f3,
+    spain: #8dccc3,
+    regional: #eef0f2,
+    japan: #080808,
+);
+
+@each $pais, $color in $card {
+    .card__#{$pais} {
+        background-color: $color;
+    }
+}
+
+

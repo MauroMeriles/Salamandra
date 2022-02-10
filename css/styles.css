@@ -1,0 +1,228 @@
+
+    
+a {
+    text-decoration: none;
+}
+
+section p {
+    color: indigo;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+
+/*titulos*/
+.contactoHeader {
+    padding: 30px;
+    text-align: center;
+    background-image: url('https://365psd.com/images/istock/previews/9068/90688657-food-seamless-pattern-elements-and-background.jpg');
+    background-size: contain;
+    background-position: center;
+}
+
+.contactoHeader h1 {
+    font-size: 3rem;
+    background-color: #ff875a;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+/*Formulario*/
+
+.formulario {
+    padding: 20px;
+}
+
+.formulario fieldset {
+    padding: 20px;
+}
+
+.boton{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario .boton--enviar {    
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;  
+}
+
+
+
+
+/* zona de reparto*/
+.secciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mapa {
+    width: 500px;
+    margin: 40px 20px 40px 40px;
+    background: white;
+}
+
+.parrafo {
+    width: 500px;
+    margin: 40px 40px 40px 20px;
+    background-color: rgb(241, 224, 212);
+    
+}
+
+.imagenMapa {
+    width: 100%;
+}
+
+.video {
+    text-align: center;
+}
+
+/* GRID panfleto*/
+.grid {
+    width: 400px;
+    height: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    background-image: url("https://www.transparenttextures.com/patterns/padded.png");
+   }
+
+li{
+    list-style: none;
+}
+
+.encabezado{
+    padding: 1em;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    
+}
+.encabezado img{
+    height: 60px;
+    width: 380px;
+    object-fit: cover;
+}
+
+
+.left .right{
+    padding: 5px;
+}
+
+.right{
+    border-left: solid 3px red;
+}
+
+.left section, .right section {
+    padding: 10px;
+    display: grid;
+    grid-auto-rows: auto;
+    
+}
+
+.cuadroUno {
+    text-transform: uppercase;
+    display: grid;
+    align-items: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border-top: solid 3px red;
+}
+
+.cuadroDos {
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -2px;
+    border-top: solid 3px red;
+}
+
+.cuadroTres{
+        font-size: 2em;
+        text-transform: uppercase;
+        line-height: 1em;
+        font-weight: 900;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        text-align: center;
+        border-top: solid 3px red;
+}
+
+.cuadroCuatro{
+    font-size: 2.6em;
+    text-transform: uppercase;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    line-height: 1em;
+    text-align: center;
+    font-weight: 400;
+    border-top: solid 3px red;
+ }
+
+ .cuadroCinco {
+    text-transform: uppercase;
+    height: 40px;
+    text-align: center;
+    border-top: solid 3px red;
+}
+
+.cuadroSeis{
+    text-transform: uppercase;
+    font-weight: bold;
+    grid-column: 2/3;
+    border-top: solid 3px red;
+    border-left: red;
+}
+
+.subTitulo h2, h3, .titulo h1{
+    font-size: 3rem;
+    background-color: #ff875a;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.subTitulo, .titulo {
+    margin-top: 10px;
+    padding: 30px;
+    text-align: center;
+    background-image: url(https://365psd.com/images/istock/previews/9068/90688657-food-seamless-pattern-elements-and-background.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.titulo p{
+    color: indigo;
+}
+
+/* transformacion y animacion*/
+
+.subTitulo h2:hover, h3:hover, .titulo h1:hover{
+    font-size: 4rem;
+    transition: 3s;
+    
+}
+
+/* bootstrap en html "pedir"*/
+
+.container{
+    margin: 20px;   
+}
+
+.carousel-caption p{
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+  
+
+
+

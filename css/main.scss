@@ -1,0 +1,80 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "_mixins.scss";
+@import "_cards.scss";
+@import "_nav.scss";
+@import "_header.scss";
+@import "_footer.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(241, 224, 212);
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lobster", sans-serif;
+}
+h1,
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+
+table tbody tr{    
+  td{
+  padding: 20px;}
+  th{
+    padding: 36px;
+  }
+}
+
+@each $color in khaki, lightgreen, aquamarine {
+  .#{$color}__fila {
+    background-color: #{$color};
+    color: indigo;
+
+  }
+  
+}
+
+
+
+
+  /* BLOQUE 8 */
+  
+  .formulario {
+    padding: 20px;
+    & fieldset {
+      padding: 20px;
+    }
+    & boton {
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    & boton--enviar {
+      background-color: blue;
+      border-radius: 3px;
+      color: white;
+      font-weight: bold;
+    }
+  }
