@@ -23,7 +23,7 @@
       &:checked ~ span {
         opacity: 1;
         transform: rotate(45deg) translate(1px, -1px);
-        background: #232323;
+        background: #ff875a;
   
         &:nth-last-child(4) {
           opacity: 0;
@@ -43,7 +43,7 @@
       margin-bottom: 5px;
       position: relative;
   
-      background: #cdcdcd;
+      background: #ff875a;
       border-radius: 3px;
   
       z-index: 1;
@@ -96,4 +96,5 @@
       }
     }
   }
+  
   
