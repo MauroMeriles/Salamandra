@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
+    <title>Salamandra Food</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <meta name="description" content="En este sitio podras encontrar los mejores platos de las mejores cocinas.">
@@ -29,7 +29,7 @@
                 
             <div>            
         </nav>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasN1it4TpKSegwqnpXMgX6Hn_y1m9IEzPpw&usqp=CAU" alt="Logo-Salamandra">
+        <img src="./img/images.jfif" alt="Logo-Salamandra">
     </header>
 
     <main>
@@ -243,25 +243,32 @@
         </section>
       </main>
   
-      <br /><br /><br />
+      
       <footer>
-        <a href="">CONSULTAS</a>
-        <a href="">ACERCA DE NOSOTROS</a>
-        <a href="">CONTACOS</a>
+      
+        <a class="avisos" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  CONSULTAS
+                </a>
+        
+                <a class="avisos" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                  ACERCA DE NOSOTROS
+                </a>
+       
+        
         <span class="redes">
-          <a href="">
+          <a href="https://www.instagram.com/salamandrarestaurant/" target="_blank">
             <img
               src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
               alt="Instagram"
             />
           </a>
-          <a href="">
+          <a href="https://www.facebook.com/Salamandra-Restaurant-1040332302729176/" target="_blank">
             <img
               src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
               alt="Facebook"
             />
           </a>
-          <a href="">
+          <a href="https://api.whatsapp.com/send/?phone=543876157910&text=Hola&app_absent=0" target="_blank">
             <img
               src="https://c0.klipartz.com/pngpicture/25/921/gratis-png-interfaz-de-pagos-unificados-de-los-iconos-de-la-computadora-del-servicio-de-whatsapp.png"
               alt="Whatsapp"
@@ -269,6 +276,37 @@
           </a>
         </span>
       </footer>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Consultas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Tenemos varios medios de comunicacion donde podemos sacar tus dudas. Visita nuestras redes sociales o mandanos un msj a nuestro numero. Horarios de atencion de 08:00 am a 01:00 pm.                
+              Esperamos tus consultas!
+              </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel2">Acerca de nosotros<h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Salamandra Food es una emprendimiento familiar creado en Julio del 2010. Todos los derechos reservados.
+              </p> 
+            </div>
+          </div>
+        </div>
+      </div>
       <script
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

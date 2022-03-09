@@ -1,8 +1,14 @@
 .card {
     margin-bottom: 70px;
     display: flex;
+
+    .btn{
+        float: right;
+        background-color: indigo;
+        border-color: black;
+    }
     @include responsive(tablet){
-        flex-direction: column;
+        flex-direction: column !important;
         
     }
     &.content {
@@ -10,11 +16,17 @@
         flex-direction: column;
         align-items: self-start;
     }
+
+    &.card__japan {
+        h5, p, ul {
+            color: white;
+        }
+    }
     img {
         width: 100%;
         object-fit: cover;
         @include responsive(tablet){
-            width: 100%;
+            width: 100% !important;
             
         }
     }
@@ -51,5 +63,4 @@ $card: (
         background-color: $color;
     }
 }
-
 
